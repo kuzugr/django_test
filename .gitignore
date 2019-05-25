@@ -5,7 +5,7 @@
 #   git config --global core.excludesfile '~/.gitignore_global'
 
 # Ignore bundler config.
-/__pycache__
+__pycache__/
 # my_setting
 .vscode/
 /my_scripts
