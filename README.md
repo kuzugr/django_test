@@ -4,7 +4,8 @@
 ## 実行方法
 1. pip install pipenv
 2. pip install --dev
-3. pip run start
+3. python manage.py migrate
+4. pip run start
 
 ## autopep8
 1. pipenv run fix
