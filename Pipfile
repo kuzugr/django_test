@@ -11,7 +11,7 @@ flake8 = "*"
 
 [packages]
 pymysql = "*"
-django = "==2.1"
+django = "<= 2.1.6"
 django-bootstrap4 = "*"
 
 [requires]
