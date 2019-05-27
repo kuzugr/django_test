@@ -2,14 +2,15 @@
 - python 3.7
 
 ## 実行方法
-1. pip install pipenv
-2. pip install --dev
-3. python manage.py migrate
-4. python manage.py createsuperuser
-5. pip run start
+1. python3 -m venv myenv
+2. source myenv/bin/activate
+3. pip install -e .[dev] -c constraints.txt
+4. python manage.py migrate
+5. python manage.py createsuperuser
+6. python manage.py runserver
 
 ## autopep8
-1. pipenv run fix
+1. autopep8 -ivr .
 
-## flake8
-1. pipenv run lint
+## pytest & flake8
+1. pytest --flake8
