@@ -9,7 +9,7 @@
 5. python manage.py createsuperuser
 6. python manage.py runserver
 
-## ## flake8 check
+## flake8 check
 1. flake8 --exclude=myenv/
 
 ## autopep8
