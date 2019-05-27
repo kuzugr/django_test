@@ -9,8 +9,11 @@
 5. python manage.py createsuperuser
 6. python manage.py runserver
 
-## autopep8
-1. autopep8 -ivr .
+## ## flake8 check
+1. flake8 --exclude=myenv/
 
-## pytest & flake8
+## autopep8
+1. autopep8 -ivr . --exclude ./myenv
+
+## pytest with flake8
 1. pytest --flake8
