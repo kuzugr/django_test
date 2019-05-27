@@ -6,6 +6,7 @@
 
 # Ignore bundler config.
 __pycache__/
+*.egg-info/
 # my_setting
 .vscode/
 /my_scripts
